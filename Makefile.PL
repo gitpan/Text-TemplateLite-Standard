@@ -15,6 +15,7 @@ WriteMakefile(
     PREREQ_PM => {
 	'Scalar::Util' => 0,
         'Test::More' => 0,
+	'Text::TemplateLite' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Text-TemplateLite-Standard-*' },

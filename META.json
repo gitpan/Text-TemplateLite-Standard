@@ -33,10 +33,11 @@
       "runtime" : {
          "requires" : {
             "Scalar::Util" : 0,
-            "Test::More" : 0
+            "Test::More" : 0,
+            "Text::TemplateLite" : 0
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "version" : "0.02"
 }

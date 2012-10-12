@@ -4,7 +4,6 @@ use Test::More tests => 5;
 
 use Text::TemplateLite;
 use Text::TemplateLite::Standard;
-use Data::Dumper;
 
 my $tpl = Text::TemplateLite->new;
 my $trnd = $tpl->new_renderer;

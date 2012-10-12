@@ -20,4 +20,5 @@ no_index:
 requires:
   Scalar::Util: 0
   Test::More: 0
-version: 0.01
+  Text::TemplateLite: 0
+version: 0.02
