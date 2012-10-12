@@ -1,7 +1,6 @@
 #!perl -T
 
 use Test::More tests => 16;
-use Data::Dumper;
 
 use Text::TemplateLite;
 use Text::TemplateLite::Standard;
